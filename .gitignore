@@ -28,3 +28,12 @@ fp-info-cache
 # Ignore misc files
 misc/
 misc/**
+
+# Ignore gerber files, bom, and position files
+bom/
+bom/**
+GERBER.zip
+BERGER/
+GERBER/**
+exports/
+exports/**
