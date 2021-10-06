@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name PTS636_SM43J_SMTR_LFS)(type Legacy)(uri ${KIPRJMOD}/misc/PTS636_SM43J_SMTR_LFS.lib)(options "")(descr ""))
+  (lib (name USB4155-03-C_REVA)(type Legacy)(uri ${KIPRJMOD}/misc/USB4155-03-C_REVA.lib)(options "")(descr ""))
+)
