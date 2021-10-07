@@ -29,11 +29,5 @@ fp-info-cache
 misc/
 misc/**
 
-# Ignore gerber files, bom, and position files
-bom/
-bom/**
+# Ignore the zipped Gerber folder
 GERBER.zip
-BERGER/
-GERBER/**
-exports/
-exports/**
