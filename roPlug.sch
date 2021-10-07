@@ -224,7 +224,7 @@ U 1 1 615F3ED9
 P 2150 2650
 F 0 "Y1" V 2104 2794 50  0000 L CNN
 F 1 "16MHz" V 2195 2794 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_0603-4Pin_6.0x3.5mm" H 2150 2650 50  0001 C CNN
+F 2 "Crystal:Crystal_SMD_Abracon_ABM3B-4Pin_5.0x3.2mm" H 2150 2650 50  0001 C CNN
 F 3 "~" H 2150 2650 50  0001 C CNN
 	1    2150 2650
 	0    1    1    0   
@@ -327,7 +327,7 @@ U 1 1 616454B2
 P 7850 2800
 F 0 "P1" H 7957 4067 50  0000 C CNN
 F 1 "USB_C_Plug" H 7957 3976 50  0000 C CNN
-F 2 "misc:GCT_USB4155-03-C_REVA" H 8000 2800 50  0001 C CNN
+F 2 "Connector_USB:USB_C_Plug_Molex_105444" H 8000 2800 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 8000 2800 50  0001 C CNN
 	1    7850 2800
 	1    0    0    -1  
@@ -541,7 +541,7 @@ U 1 1 61600F19
 P 2450 2350
 F 0 "RST1" H 2342 2125 50  0000 C CNN
 F 1 "Conn_01x01_Female" H 2342 2216 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2450 2350 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical" H 2450 2350 50  0001 C CNN
 F 3 "~" H 2450 2350 50  0001 C CNN
 	1    2450 2350
 	-1   0    0    1   
