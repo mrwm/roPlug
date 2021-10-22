@@ -1,2 +1,2 @@
 # roPlug
-Dedicated QMK rotary encoder plug for the framework laptop.
+ATMega32U4 with a male USB plug.
