@@ -8,6 +8,15 @@ Extra parts - post pcba:
 
 ***
 
+## Pictures
+
+![front of roPlug PCB](img/Screenshot_20211021_224046.png)
+
+![back of roPlug PCB](img/Screenshot_20211021_224202.png)
+
+![overview of roPlug PCB](img/Screenshot_20211021_224330.png)
+
+![overview of roPlug PCB with rotary encoder](img/Screenshot_20211021_225110.png)
 
 
 ***
