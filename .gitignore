@@ -31,3 +31,6 @@ misc/**
 
 # Ignore the zipped Gerber folder
 GERBER.zip
+
+# Dolphin files
+*.directory
