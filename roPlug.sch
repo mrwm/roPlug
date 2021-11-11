@@ -40,12 +40,12 @@ $EndComp
 $Comp
 L Device:R_Small R3
 U 1 1 615C1DAA
-P 4250 4450
-F 0 "R3" V 4054 4450 50  0000 C CNN
-F 1 "10k" V 4145 4450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 4250 4450 50  0001 C CNN
-F 3 "~" H 4250 4450 50  0001 C CNN
-	1    4250 4450
+P 4150 4450
+F 0 "R3" V 3954 4450 50  0000 C CNN
+F 1 "10k" V 4045 4450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4150 4450 50  0001 C CNN
+F 3 "~" H 4150 4450 50  0001 C CNN
+	1    4150 4450
 	0    1    1    0   
 $EndComp
 $Comp
@@ -241,9 +241,9 @@ Wire Wire Line
 Wire Wire Line
 	2750 5650 3150 5650
 Wire Wire Line
-	4350 4450 4450 4450
+	4250 4450 4450 4450
 Wire Wire Line
-	3850 4450 4150 4450
+	3850 4450 4050 4450
 Wire Wire Line
 	2650 2550 2150 2550
 Wire Wire Line
@@ -334,8 +334,6 @@ F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 8000 28
 $EndComp
 Wire Wire Line
 	9850 1800 9850 1750
-Wire Wire Line
-	9300 1800 9850 1800
 $Comp
 L power:+5V #PWR014
 U 1 1 61652A37
@@ -361,8 +359,6 @@ F 3 "~" H 8750 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 8750 1800
-Wire Wire Line
-	8750 1800 9100 1800
 $Comp
 L power:GND #PWR011
 U 1 1 61658967
@@ -378,58 +374,15 @@ $Comp
 L Device:R_Small R4
 U 1 1 6165C701
 P 8750 2000
-F 0 "R4" V 8554 2000 50  0000 C CNN
-F 1 "22" V 8645 2000 50  0000 C CNN
+F 0 "R4" V 8800 2000 50  0000 C CNN
+F 1 "5.1k" V 8850 2000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 8750 2000 50  0001 C CNN
 F 3 "~" H 8750 2000 50  0001 C CNN
 	1    8750 2000
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:R_Small R5
-U 1 1 6165E361
-P 8750 2100
-F 0 "R5" V 8554 2100 50  0000 C CNN
-F 1 "22" V 8645 2100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 8750 2100 50  0001 C CNN
-F 3 "~" H 8750 2100 50  0001 C CNN
-	1    8750 2100
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR012
-U 1 1 6165F6F1
-P 9250 2150
-F 0 "#PWR012" H 9250 1900 50  0001 C CNN
-F 1 "GND" H 9255 1977 50  0000 C CNN
-F 2 "" H 9250 2150 50  0001 C CNN
-F 3 "" H 9250 2150 50  0001 C CNN
-	1    9250 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR013
-U 1 1 6165FE1F
-P 9450 2150
-F 0 "#PWR013" H 9450 1900 50  0001 C CNN
-F 1 "GND" H 9455 1977 50  0000 C CNN
-F 2 "" H 9450 2150 50  0001 C CNN
-F 3 "" H 9450 2150 50  0001 C CNN
-	1    9450 2150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8450 2000 8650 2000
-Wire Wire Line
-	9450 2000 9450 2150
-Wire Wire Line
-	8850 2000 9450 2000
-Wire Wire Line
-	9250 2150 9250 2100
-Wire Wire Line
-	9250 2100 8850 2100
-Wire Wire Line
-	8650 2100 8450 2100
 $Comp
 L Device:Rotary_Encoder_Switch SW1
 U 1 1 61667E87
@@ -546,4 +499,35 @@ F 3 "~" H 2450 2350 50  0001 C CNN
 	1    2450 2350
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	8750 1800 9100 1800
+Wire Wire Line
+	8850 2000 9450 2000
+$Comp
+L power:GND #PWR013
+U 1 1 6165FE1F
+P 9450 2150
+F 0 "#PWR013" H 9450 1900 50  0001 C CNN
+F 1 "GND" H 9455 1977 50  0000 C CNN
+F 2 "" H 9450 2150 50  0001 C CNN
+F 3 "" H 9450 2150 50  0001 C CNN
+	1    9450 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 1800 9850 1800
+Wire Wire Line
+	9450 2000 9450 2150
+NoConn ~ 8450 2100
+NoConn ~ 8450 2800
+NoConn ~ 8450 2900
+NoConn ~ 7550 4400
+NoConn ~ 8450 4100
+NoConn ~ 8450 4000
+NoConn ~ 8450 3800
+NoConn ~ 8450 3700
+NoConn ~ 8450 3500
+NoConn ~ 8450 3400
+NoConn ~ 8450 3200
+NoConn ~ 8450 3100
 $EndSCHEMATC
